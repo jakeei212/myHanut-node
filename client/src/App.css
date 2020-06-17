@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background: red;
+  font-family: "Oswald", sans-serif;
+  color: #404040;
+}
+
+.bck_b_light {
+  background: #999592;
+}
+
+.bck_b_dark {
+  background: #272723;
+}

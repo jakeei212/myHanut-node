@@ -1,0 +1,45 @@
+footer .logo {
+  text-align: center;
+  font-family: 'MuseoModerno', cursive;
+  color: #ffffff;
+  font-size: 40px;
+  padding: 11px 0px;
+  border-bottom: 1px solid #4d4d4d;
+}
+
+footer .wrapper {
+  display: flex;
+  color: #828282;
+  font-family: 'MuseoModerno', cursive;
+}
+
+footer .left,
+footer .right {
+  flex: 1;
+}
+
+footer .business_nfo {
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'MuseoModerno', cursive;
+}
+
+footer .business_nfo .tag {
+  flex-grow: 1;
+  position: relative;
+  width: 50%;
+  margin-bottom: 30px;
+}
+footer .business_nfo .icon {
+  position: absolute;
+  font-size: 26px;
+  top: 10px;
+
+}
+footer .business_nfo .nfo {
+  padding-left: 40px;
+}
+
+.bck_b_dark {
+  background: black;
+}

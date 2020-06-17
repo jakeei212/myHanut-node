@@ -1,0 +1,76 @@
+.featured_container .featured_image {
+  position: relative;
+  background-size: cover !important;
+  background-position: center left !important;
+  width: 100%;
+}
+
+.featured_container .featured_action {
+  position: absolute;
+  top: 45%;
+  left: 8%;
+}
+
+.featured_container .featured_action .tag {
+  background: #82828287;
+  color: #ffffff;
+  padding: 0px 2px;
+  text-transform: uppercase;
+  display: table;
+  font-size: 10px;
+}
+
+.featured_container .featured_action .tag.title {
+  font-size: 8vh;
+  font-weight: 700;
+  font-family: "MuseoModerno", cursive;
+
+}
+
+.featured_container .featured_action .tag.low_title {
+  font-size: 6vh;
+  font-weight: 300;
+  margin-top: 10px;
+  font-family: "MuseoModerno", cursive;
+}
+
+/*============================
+        FEATURED PROMOTION
+==============================*/
+
+.home_promotion .home_promotion_img {
+  height: 400px;
+  background-size: cover !important;
+  background-position: top center !important;
+  padding: 73px;
+  box-sizing: border-box;
+}
+
+.home_promotion .tag {
+  background: #82828287;
+  color: #ffffff;
+  padding: 0px 20px;
+  text-transform: uppercase;
+  display: table;
+  font-family: "MuseoModerno", cursive;
+}
+
+.home_promotion .tag.title {
+  font-size: 6vh;
+  font-weight: 700;
+  margin: 10px auto;
+  font-family: "MuseoModerno", cursive;
+}
+
+.home_promotion .tag.low_title {
+  font-size: 4vh;
+  font-weight: 300;
+  margin-top: 10px;
+  margin: 0 auto;
+  font-family: "MuseoModerno", cursive;
+}
+
+.home_promotion .my_link a {
+  margin: 10px auto;
+  font-family: "MuseoModerno", cursive;
+}

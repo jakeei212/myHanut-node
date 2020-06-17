@@ -1,0 +1,210 @@
+/*============================
+            FORM
+==============================*/
+
+input {
+  font-size: 15px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 10px 10px;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+
+button {
+  cursor: pointer;
+  text-transform: uppercase;
+  padding: 10px;
+  background: #e1ddc3;
+  margin-top: 10px;
+  font-family: "Oswald", sans-serif;
+  font-size: 16px;
+}
+
+.error_label {
+  color: #f44336;
+  display: block;
+  font-size: 15px;
+}
+
+textarea {
+  width: 100%;
+  height: 51px;
+  font-size: 15px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  border: 1px solid #d1d1d1;
+}
+
+.form_devider {
+  border-bottom: 3px solid #999592;
+  margin: 40px 0px;
+}
+
+.label_inputs {
+  display: inline-block;
+  background: #999592;
+  color: #fff;
+  padding: 5px 5px;
+}
+
+select {
+  font-size: 16px;
+  height: 38px;
+  border: 1px solid #e9e9e9;
+  border-radius: 3px;
+  width: 100%;
+  margin: 10px 0px 0px 0px;
+}
+.formBlock {
+  margin-bottom: 10px;
+}
+
+.form_block_two {
+  display: flex;
+}
+.form_block_two .block {
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.form_block_two .block:nth-child(1) {
+  padding-right: 10px;
+}
+.form_block_two .block:nth-child(2) {
+  padding-left: 10px;
+}
+
+.form_success {
+  background: #4caf50;
+  color: #ffffffff;
+  padding: 10px;
+  display: block;
+}
+
+/*============================
+            BUTTONS
+==============================*/
+.link_default {
+  text-transform: uppercase;
+  padding: 10px;
+  display: table;
+  background: #f34444;
+  margin-top: 10px;
+  color: white;
+  font-weight: 600;
+  width: 100%;
+  text-align: center;
+
+}
+
+.link_default:hover{
+    width: 100%;
+    border: 1px solid #dcdcdc;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+    color: #f34444;
+    background: white;
+    transition: all 200ms ease-in;
+    cursor: pointer;
+}
+
+.card_link,
+.bag_link,
+.add_to_cart_link {
+  width: 100%;
+  border: 1px solid #dcdcdc;
+  padding: 5px 10px;
+  display: block;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background: #000000;
+  transition: all 200ms ease-in;
+  cursor: pointer;
+  font-weight: 600;
+}
+.card_link:hover,
+.bag_link:hover,
+.add_to_cart_link:hover {
+  background: #f34444;
+  color: rgb(0, 0, 0);
+}
+.add_to_cart_link {
+  color: #ffff;
+  background: #000000;
+  font-weight: 600;
+}
+
+
+.action_button {
+  text-transform: uppercase;
+  padding: 10px;
+  display: table;
+  background: #f34444;
+  margin-top: 10px;
+}
+
+/*=============================
+         ADMIN
+===============================*/
+
+.admin_category_wrapper {
+  padding-bottom: 50px;
+  border-bottom: 4px solid #e9e9e9;
+}
+
+.admin_two_column {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.admin_two_column .right {
+  flex-grow: 1;
+}
+.brands_container {
+  height: 200px;
+  overflow-y: scroll;
+  margin-right: 20px;
+}
+
+.brands_container .category_item {
+  width: 200px;
+  font-size: 20px;
+  font-weight: 300;
+  border: 1px solid #f1f1f1;
+  padding: 10px;
+  position: relative;
+  background: #999592;
+  color: #fff;
+}
+
+.dropzone {
+  border: 1px solid #e5e5e5;
+  margin-bottom: 40px;
+}
+
+.dropzone_box {
+  float: left;
+  width: 140px;
+  height: 140px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.dropzone_box .wrap {
+  background: #eaeaea;
+  height: 100%;
+  text-align: center;
+  padding-top: 31px;
+  box-sizing: border-box;
+  font-size: 49px;
+  background-size: contain !important;
+  background-position: center center !important;
+  border: 1px solid #eaeaea;
+}
